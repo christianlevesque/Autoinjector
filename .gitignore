@@ -1,0 +1,10 @@
+.idea/
+.vs/
+.vscode/
+
+[Bb]in/
+[Oo]bj/
+[Pp]ackages
+*.exe
+*.pdb
+*.nupkg

@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0</TargetFramework>
+		<Nullable>enable</Nullable>
+
+		<PackageId>Autoinjector</PackageId>
+		<Title>Autoinjector</Title>
+		<PackageVersion>1.0.0</PackageVersion>
+		<PackageReleaseNotes>Initial release</PackageReleaseNotes>
+		<Authors>Christian LeVesque</Authors>
+		<Description>A small library that injects services into Microsoft's DI container using an attribute</Description>
+		<Copyright>Copyright Christian LeVesque 2022</Copyright>
+		<PackageProjectUrl>https://github.com/christianlevesque/Autoinjector</PackageProjectUrl>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<RepositoryUrl>https://github.com/christianlevesque/Autoinjector</RepositoryUrl>
+		<RepositoryType>git</RepositoryType>
+		<PackageTags>autoinject autoinjector dependency injection</PackageTags>
+		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="../../README.md" Pack="true" PackagePath="/" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" PrivateAssets="all" />
+	</ItemGroup>
+</Project>
